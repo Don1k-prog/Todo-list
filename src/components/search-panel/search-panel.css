@@ -1,0 +1,15 @@
+.search-panel {
+    display: flex;
+    margin-bottom: 15px;
+}
+.search-panel input {
+    padding: 1px 28px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    font-size: 16px;
+}
+.search-panel input::placeholder {
+    font-size: 16px;
+    transform: translateY(-2px);
+}
